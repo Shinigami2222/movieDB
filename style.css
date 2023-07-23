@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,18 +14,22 @@ body {
     text-align: center;
     padding: 15px 50px;
 }
+
 h1 {
     margin: 0;
 }
+
 form {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
+
 label {
     color: #fff;
     margin-right: 5px;
 }
+
 input[type="text"] {
     padding: 5px;
     font-size: 16px;
@@ -33,6 +38,7 @@ input[type="text"] {
     border-radius: 5px 0 0 5px;
     height: 20.5px;
 }
+
 input[type="submit"] {
     padding: 5px 10px;
     font-size: 16px;
@@ -43,6 +49,7 @@ input[type="submit"] {
     cursor: pointer;
     height: 30px;
 }
+
 input[type="submit"]:hover {
     background-color: #eee;
 }
@@ -56,22 +63,26 @@ input:focus {
     margin: 0 auto;
     padding: 20px;
 }
+
 .movie-item {
     display: flex;
     margin-bottom: 20px;
 }
+
 .movie-poster {
     max-width: 150px;
     margin-right: 20px;
 }
+
 .movie-details {
     flex-grow: 1;
 }
+
 .movie-poster img {
     max-width: 100%;
 }
 
-/* Additional styles for the loading modal */
+/* Loading modal */
 .loading-modal {
     display: none;
     position: fixed;
